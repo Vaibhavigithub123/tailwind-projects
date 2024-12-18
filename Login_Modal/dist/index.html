@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Modal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="main" class="w-full h-screen flex justify-center items-center bg-slate-300">
+        <div id="main-center" class="w-full h-full flex flex-col bg-white mx-auto md:max-w-5xl md:h-4/5 md:rounded-xl  md:flex-row"> 
+            <div id="lft" class="flex flex-col gap-3 items-center bg-[#8e75e4]  rounded-b-full md:rounded-r-[30%] md:rounded-b-none justify-center flex-1"> 
+                <h1 class="text-4xl font-bold text-white md:text-5xl ">Hello,Welcome!</h1>
+                <p class="text-xl text-white md:text-2xl">Don't have an account?</p>
+                <button class="border-2 p-2 px-7 rounded-md text-xl text-white md:text-2xl">Register</button>
+            </div>
+            <div id="rgt" class=" flex flex-col  items-center space-y-10 mt-9  md:flex-1 justify-center ">
+                <h1 class="text-4xl font-semibold">Login</h1>
+                <form action="#" class="flex flex-col space-y-7 justify-center items-center">
+                    <div id="ip-div" class="flex relative md:flex-wrap">
+                        <input type="text" placeholder="Username" class="p-3 px-12  bg-slate-200 text-2xl rounded-md" />
+                        <i class='bx bxs-user absolute right-2 top-4 text-xl' ></i>
+                    </div>
+                    <div id="ip-div2" class="flex relative">
+                        <input type="text" placeholder="Password" class="p-3 px-12 bg-slate-200 text-2xl rounded-md"/>
+                        <i class='bx bxs-lock-alt absolute right-2 top-4 text-xl' ></i>
+                    </div>
+                    <div id="ip-msg" >
+                        <a href="#" class="text-xl">Fogot Password?</a>
+                    </div>
+                    <div id="formbtn" class="p-2 px-12 bg-[#8e75e4] text-2xl text-white rounded-md">Login</div>
+                    <p class="text-xl">or login with social icons</p>
+                    <div id="socials">
+                        <a href="#" class="border-4 p-3 px-4 rounded-lg"><i class='bx bxl-facebook text-2xl'></i></a>
+                        <a href="#" class="border-4 p-3 px-4 rounded-lg"><i class='bx bxl-instagram text-2xl'></i></a>
+                        <a href="#" class="border-4 p-3 px-4 rounded-lg"><i class='bx bxl-google text-2xl'></i></a>
+                        <a href="#" class="border-4 p-3 px-4 rounded-lg"><i class='bx bxl-linkedin text-2xl'></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

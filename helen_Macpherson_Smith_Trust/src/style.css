@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face{
+        font-family:'mackinac';
+        src: url('./assets/mackinac.ttf') format('truetype') ;
+    }
+    @font-face{
+        font-family:'lausanne';
+        src: url('./assets/lausanne.ttf') format('truetype') ;
+    }
+}

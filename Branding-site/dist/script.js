@@ -8,7 +8,7 @@ var vl = gsap.timeline({
         trigger:"#part2",
         start: "top 50%",
         end:"50% 50%",
-        markers:true
+        // markers:true
     }
 })
 vl.from("#img1",{opacity:0, y:-50, duration:1.5} )

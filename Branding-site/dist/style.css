@@ -107,7 +107,7 @@
 }
 
 /*
-! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -705,11 +705,6 @@ video {
   line-height: 2rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -737,12 +732,12 @@ video {
     margin-top: 18rem;
   }
 
-  .xs\:w-full {
-    width: 100%;
-  }
-
   .xs\:w-\[350px\] {
     width: 350px;
+  }
+
+  .xs\:w-full {
+    width: 100%;
   }
 
   .xs\:flex-1 {
